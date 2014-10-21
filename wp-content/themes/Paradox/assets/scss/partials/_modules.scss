@@ -70,6 +70,25 @@ header .navbar-brand {
     }
 }
 
+.yinstagram-scroller-infinite li img {
+    margin: 10px!important;
+    width: 250px!important;
+    height: 250px!important;
+}
+
+.gform_wrapper input[type=text], .gform_wrapper input[type=url], .gform_wrapper input[type=email], .gform_wrapper input[type=tel], .gform_wrapper input[type=number], .gform_wrapper input[type=password], .gform_wrapper textarea {
+    font-size: 17px!important;
+    padding: 5px 10px 5px 8px!important;
+}
+
+input[type=checkbox] {
+height: 20px;
+}
+
+label.gfield_label {
+font-weight: normal!important;
+}
+
 .navbar-brand { padding: 57px 15px 35px 15px;  }
 .page-template-page-home-php .navbar-brand { padding: 57px 15px 57px 15px; }
 
