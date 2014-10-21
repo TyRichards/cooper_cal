@@ -8,7 +8,7 @@ Template Name: Left Sidebar
 
 <section class="primary-content">
     <div class="container col-no-padding-xs">        
-        <div class="row">
+        <!-- <div class="row"> -->
             <section class="main-col page-content col-sm-7 col-sm-push-5 container">                
                 <div id="main" class="site-main" role="main">
                     <?php 
@@ -30,7 +30,7 @@ Template Name: Left Sidebar
                     ?> 
                 </div>           
             </section>
-        </div>
+        <!-- </div> -->
         <section class="sidebar-col sidebar sidebar-left col-sm-5 col-sm-pull-7">
             <div class="col-sm-10 col-no-padding-xs">
                 <?php 

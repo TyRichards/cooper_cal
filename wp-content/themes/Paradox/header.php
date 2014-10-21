@@ -35,7 +35,7 @@
 		<![endif]-->	
 
 		<div id="bg">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bg.jpg" alt="Sullivan Chimney Sweep">
+			<img style="display:none;" src="<?php echo get_template_directory_uri(); ?>/assets/images/bg.jpg" alt="<?php wp_title(); ?>">
 		</div>				
 		
 		<?php do_action('before'); ?> 
@@ -52,12 +52,12 @@
 							</button>
 							<a class="navbar-brand" href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>">
 								<?php // echo esc_attr(get_bloginfo('name', 'display')); ?>
-								<img style="max-width:210px; margin-top: -33px;" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png">
+								<img style="max-width:210px; margin-top: -20px;" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png">
 							</a>					
 						</div>						
 						<div class="collapse navbar-collapse navbar-primary-collapse">
-							<a class="btn btn-primary navbar-btn navbar-right hidden-xs" href="/schedule-inspection">
-								<i class="fa fa-phone fa-left"></i>Call (817) 914-4898
+							<a class="btn btn-primary navbar-btn navbar-right hidden-xs" href="/training">
+								<i class="fa fa-calendar"></i>Schedule Training
 							</a>     							
 							<?php wp_nav_menu(array('theme_location' => 'primary', 'container' => false, 'menu_class' => 'nav navbar-nav navbar-right', 'walker' => new BootstrapBasicMyWalkerNavMenu())); ?>
 						</div><!--.navbar-collapse-->

@@ -10,13 +10,13 @@ $gray-light:            lighten(#000, 60%);   // #999
 $gray-lighter:          lighten(#000, 93.5%); // #eee
 
 // Color Conventions
-$brand-primary:         #2c3d5e; // #4D6387; // #6AA7D0;
+$brand-primary:         #4473D7; // #4D6387; // #6AA7D0;
 $brand-secondary:       #990012; // #428bca;
 $brand-success:         #5cb85c;
 $brand-info:            #3498db; // #5bc0de;
 $brand-warning:         #f0ad4e;
 $brand-danger:          #c0392b;
-$brand-dark:            #181c24;
+$brand-dark:            #2F2F2F;
 
 // Scaffolding /////////////////////////////////////////////////////////////////
 $body-bg:               $brand-dark; //#ecf0f1;
@@ -32,21 +32,21 @@ $link-hover-color:      darken($link-color, 15%);
 // Font weights
 $light: 300;
 $regular: normal;
-$bold: 700;
+$bold: 900;
 
 // Font Families
 $font-family-sans-serif:    "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $font-family-serif:         Georgia, "Times New Roman", Times, serif;
 $font-family-monospace:     Menlo, Monaco, Consolas, "Courier New", monospace;
 $font-family-base:          $font-family-sans-serif;
-$font-family-display:       'Sacramento', "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif, cursive;
+$font-family-display:       'Oswald', "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif, cursive;
 
 // Font Sizes
 $font-size-base:        16px;
 $font-size-large:       ceil(($font-size-base * 1.25));
 $font-size-small:       ceil(($font-size-base * 0.85));
 
-$font-size-h1:          floor(($font-size-base * 4));
+$font-size-h1:          floor(($font-size-base * 3.2));
 $font-size-h2:          floor(($font-size-base * 2.9));
 $font-size-h3:          ceil(($font-size-base * 2.2));
 $font-size-h4:          ceil(($font-size-base * 1.9));
@@ -58,11 +58,14 @@ $line-height-base: 1.65;
 $line-height-computed: floor(($font-size-base * $line-height-base));
 
 // Heading Styles
-$headings-font-family:    $font-family-sans-serif; //"Domine", "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$headings-font-family:    $font-family-display; //"Domine", "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $headings-font-weight:    $regular;
 $headings-line-height:    1.1;
 $h1-color:                $brand-primary !important;
 $headings-color:          $brand-dark;
+
+// Btn
+
 
 //-- Iconography
 //
@@ -320,7 +323,7 @@ $dropdown-link-active-bg:        inherit;
 // Components /////////////////////////////////////////////////////////////////
 
 // // Basics of a navbar
-$navbar-height:                    180px;
+$navbar-height:                    140px;
 // $navbar-margin-bottom:             $line-height-computed;
 $navbar-border-radius:             0px;
 // $navbar-padding-horizontal:        floor(($grid-gutter-width / 2));

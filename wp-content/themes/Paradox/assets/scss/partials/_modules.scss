@@ -14,6 +14,12 @@ h1 {
     font-family: $font-family-display!important;
 }
 
+// .primary-content {
+//     h1, h2, h3, h4, h5, h6 {
+//         color: $brand-primary;
+//     }
+// }
+
 ul li {
     // counter-increment: foo;
     display: table-row;
@@ -64,6 +70,9 @@ header .navbar-brand {
     }
 }
 
+.navbar-brand { padding: 57px 15px 35px 15px;  }
+.page-template-page-home-php .navbar-brand { padding: 57px 15px 57px 15px; }
+
 .col-no-padding {
     padding-left: 0px;
     padding-right: 0px;
@@ -73,7 +82,7 @@ header .navbar-brand {
 .fa-left { margin-right: 15px; }
 
 .subhead {
-    margin-top: -11px!important;
+    margin-top: 0px!important;
     text-transform: uppercase;
     font-size: 0.85em;
     letter-spacing: 2px;
@@ -90,13 +99,25 @@ header .navbar-brand {
 
 // Body BG //////////////////////////////////////////////////////////////////
 
-#bg {
-  position: fixed; 
-  top: -50%; 
-  left: -50%; 
-  width: 200%; 
-  height: 200%;
-  z-index: -1;
+// #bg {
+//   position: fixed; 
+//   top: -50%; 
+//   left: -50%; 
+//   width: 200%; 
+//   height: 200%;
+//   z-index: -1;
+// }
+
+.page-template-page-home-php #bg {
+    // background: url("assets/images/bg.jpg") top center no-repeat;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    // margin: 1.5em auto 2.5em;
+    max-width: 2000px;
+    max-height: 1000px; 
+    img { display: block!important; }
 }
 
 #bg img {
@@ -105,9 +126,9 @@ header .navbar-brand {
   left: 0; 
   right: 0; 
   bottom: 0; 
-  margin: auto; 
-  min-width: 50%;
-  min-height: 50%;
+  // margin: auto; 
+  // min-width: 50%;
+  // min-height: 50%;
 }
 
 // Masthead /////////////////////////////////////////////////////////////////
@@ -126,6 +147,10 @@ header .navbar-brand {
 }
 
 // Buttons /////////////////////////////////////////////////////////////////
+
+.input-group-addon.btn-primary {
+    @extend .btn-primary;
+}
 
 .body-content .btn {
 margin: $paragraph-top-margin;
@@ -166,8 +191,10 @@ border-color: $btn-secondary-border;
 .navbar-btn.navbar-right { margin-left: 30px; }
 .navbar-btn.navbar-left { margin-right: 30px; }
 
-.nav > .menu-item > a {
-    font-weight: 500;
+.nav > .menu-item > a, .btn, .input-group-addon {
+    font-weight: $regular;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .navbar {
@@ -275,6 +302,7 @@ color: #ffffff!important;
 h1, h2, h3, h4, h5, h6 {
     margin-top: 0px;
     margin-bottom: 0px;
+    text-transform: uppercase;
 }
 
 .site-main {
