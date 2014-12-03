@@ -154,7 +154,12 @@ font-weight: normal!important;
 
 .masthead {
     background-color: transparent;
-    h2 { color: #ffffff; }
+    h2, h3 { color: #ffffff; font-size: 36px!important; margin-bottom: 25px; }
+}
+
+#gform_wrapper_1 form {
+    text-align: center;
+
 }
 
 // Sidebar Feature Image /////////////////////////////////////////////////////////////////
@@ -381,6 +386,33 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 // Gravity Forms
+
+h3.gform_title {
+margin-top: 0!important;
+margin-bottom: 25px!important;
+}
+
+.gform_wrapper .gform_heading { margin-bottom: 32px!important; }
+
+#gform_1 {
+    .gform_body {
+        width: 40%;
+        float: left;
+    }
+    .gform_footer.top_label {
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+        width: 53%;
+        display: inline-block;
+        input#gform_submit_button_1 {
+            margin: 0 0 0 0;
+        }
+    }    
+}
+
+
+
+
 
 .ginput_container input, .ginput_container select, .ginput_container textarea {
     padding-left: 8px;

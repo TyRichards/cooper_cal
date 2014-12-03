@@ -11,17 +11,18 @@ Template Name: Home
     <div class="container">
         <div class="row">
             <div class="col-sm-5 col-sm-offset-7">
-                <h2 class="h3">Get Ryan's workout plan</h2>  
+<!--                 <h2 class="h3">Get Ryan's workout plan</h2>  
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In turpis est, facilisis et ex hendrerit, iaculis cursus tortor. Phasellus consequat id ante in faucibus.</p>
-                <p>
-                    <form class="form-inline" role="form">
+                <p> -->
+                    <?php gravity_form(1, true, true, false, null, true, 10); ?>
+                    <!-- <form class="form-inline" role="form">
                         <div class="form-group">
                             <div class="input-group">                                
                                 <input class="form-control" type="email" placeholder="Enter email">
                                 <div class="input-group-addon btn-primary">Get Workout Plan <i class="fa fa-right fa-arrow-right"></i></div>
                             </div>
                         </div>                      
-                    </form>                
+                    </form>   -->              
                 </p>    
             </div>
         </div>
