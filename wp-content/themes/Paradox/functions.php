@@ -222,3 +222,5 @@ require get_template_directory() . '/inc/template-widgets-hook.php';
 add_image_size( 'sidebar-thumb', 500, 9999 );
 
 
+
+add_filter("gform_user_notification_attachments", "add_attachment", 10, 3);

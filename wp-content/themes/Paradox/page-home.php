@@ -14,7 +14,7 @@ Template Name: Home
 <!--                 <h2 class="h3">Get Ryan's workout plan</h2>  
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In turpis est, facilisis et ex hendrerit, iaculis cursus tortor. Phasellus consequat id ante in faucibus.</p>
                 <p> -->
-                    <?php gravity_form(1, true, true, false, null, true, 10); ?>
+                    <?php gravity_form(1, true, true, false, null, false, 10); ?>
                     <!-- <form class="form-inline" role="form">
                         <div class="form-group">
                             <div class="input-group">                                
