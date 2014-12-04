@@ -387,6 +387,8 @@ h1, h2, h3, h4, h5, h6 {
 
 // Gravity Forms
 
+input#gform_submit_button_5 { margin: 0; }
+
 h3.gform_title {
 margin-top: 0!important;
 margin-bottom: 25px!important;
@@ -394,7 +396,7 @@ margin-bottom: 25px!important;
 
 .gform_wrapper .gform_heading { margin-bottom: 32px!important; }
 
-#gform_1 {
+#gform_1, #gform_5 {
     .gform_body {
         width: 40%;
         float: left;
