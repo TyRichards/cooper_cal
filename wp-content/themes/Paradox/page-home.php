@@ -10,7 +10,7 @@ Template Name: Home
     <div class="background">&nbsp;</div>
     <div class="container">
         <div class="row">
-            <div class="col-sm-5 col-sm-offset-7">
+            <div class="col-sm-6 col-sm-offset-3 col-lg-5 col-lg-offset-7">
 <!--                 <h2 class="h3">Get Ryan's workout plan</h2>  
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In turpis est, facilisis et ex hendrerit, iaculis cursus tortor. Phasellus consequat id ante in faucibus.</p>
                 <p> -->

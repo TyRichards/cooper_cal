@@ -34,7 +34,7 @@
 @media (min-width: $screen-md-min) {
 
     header .navbar-brand img {
-        width: 100%;
+        width: 168px;
     }    
 
     .logos .container .cred-logo {
@@ -54,6 +54,25 @@
 
 // Extra small devices only (phones, less than 768px)
 @media (max-width: $screen-xs-max) {
+
+    .navbar-collapse {
+        .menu-item a { text-align: center; }
+    }
+
+    #gform_1 {        
+        .gform_body {
+            width: 100%;            
+            margin: 0 auto;
+            display: block;
+            ul li { display: block; }            
+        }
+        .gform_footer.top_label {
+            display: block;
+            width: 100%;
+        }
+    }
+
+    .navbar { min-height: 97px!important; }
 
     .clipboard-icon {        
         padding-left: 109px;
@@ -112,7 +131,7 @@
     }        
     
     .navbar-header .navbar-brand {
-        width: 100%;
+        width: 80%;
     }
 
     .no-float-xs {
@@ -134,10 +153,12 @@
     .no-float-sm {
         float: none!important;
     }      
+    .navbar { min-height: 97px!important; }
 }
 
 // Medium devices only (desktops, 992px to 1200px)
 @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+    .navbar { min-height: 97px!important; }
 
     .col-no-padding-md {
         padding-left: 0px;
@@ -152,6 +173,22 @@
 // Large devices only (large desktops, 1200px and up)
 @media (min-width: $screen-lg-min) {
 
+    .page-id-8 .gform_wrapper form {
+        .gform_body {
+            width: 40%;
+            float: left;
+        }
+        .gform_footer.top_label {
+            padding: 0 0 0 0;
+            margin: 0 0 0 0;
+            width: 53%;
+            display: inline-block;
+            .gform_button { margin: 0; }       
+        }  
+    }    
+
+    .page-template-page-home-php .navbar-brand { padding: 57px 15px 57px 15px; }
+    .navbar-brand { padding: 57px 15px 35px 15px; }
     .col-no-padding-lg {
         padding-left: 0px;
         padding-right: 0px;
