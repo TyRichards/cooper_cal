@@ -70,7 +70,7 @@
 			<!-- Mobile Landing Section -->
 			<section class="mobile-landing hidden-lg col-xs-12">
 			    <div class="col-no-padding-xs call-to-action">
-				    <a class="btn btn-primary btn-lg btn-block col-xs-12" href="/schedule" style="">
+				    <a class="btn btn-primary btn-lg btn-block col-xs-12" href="/training" style="">
 				        <i class="fa fa-calendar fa-1x"></i>
 				        Schedule Training
 				    </a>
